@@ -17,6 +17,7 @@ public class BaseClassbs {
 		driver.get(Utilitybs.readDataFromProperty("url"));
 		Utilitybs.waitTime(driver, 1000);
 		driver.manage().window().maximize();
+		//added this comment for br2
 	}
 
 }
